@@ -1,0 +1,89 @@
+html{
+	height: 100%;	
+}
+body{
+	background: url(images/bg-login.png) 0 0 no-repeat;
+	background-size: cover;	
+	height: 100%;
+}
+.page-login{
+}
+.wrap-form-login{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	padding: 100px;
+	margin: 6% auto;
+	text-align: center;	
+        margin-top: 2%;
+}
+.wrap-form-login .title{
+	color: #fff;
+	font-size: 33px;
+	font-family: 'HelveticaNeueLTStd-Blk';	
+	margin: 0 0 40px 0;
+	padding: 0;
+}
+.wrap-form-login .title:after{
+	content: "";
+	background: #656565;
+	display: block;
+	width: 81px;
+	height: 7px;
+	margin: 5px auto 0;
+}
+.wrap-form-login .wrapinput{
+	background: #fff;
+	padding: 10px;	
+	margin-bottom: 10px;
+}
+.wrap-form-login .wrapinput .fa{
+	color: #EC1C24;
+}
+.wrap-form-login .wrapinput input{
+	display: inline-block;
+	width: 90%;
+	margin: 0;
+	border-radius: 0;
+	border: 0;
+	background: none;
+	font-family: 'HelveticaNeueLTStd-Roman';
+}
+.wrap-form-login .wrapinput input:-webkit-autofill{
+	background: #fff;
+}
+.wrap-form-login button[type="submit"]{
+	border:0;
+	border-radius: 0;
+	background: #EC1C24;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 12px 60px;
+	line-height: 1;
+	font-size: 24px; 
+	font-family: 'HelveticaNeueLTStd-BdCn';
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+.wrap-form-login button[type="submit"]:hover{
+	background: #353535;
+}
+.wrap-form-login .link{
+	display: block;
+	color: #EC1C24;
+	text-decoration: underline;
+	font-family: 'HelveticaNeueLTStd-Roman';
+	font-size: 14px;
+}
+.wrap-form-login .link:hover{
+	color: #fff;
+}
+@media only screen and (max-width: 510px){
+	.wrap-form-login{
+		width: 100%;
+		height: auto;
+		border: 0;	
+		padding: 15px;	
+	}
+}

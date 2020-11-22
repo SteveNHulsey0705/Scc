@@ -1,0 +1,39 @@
+[01-Sep-2016 21:48:58 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: Lorem Ipsum' in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php:946
+Stack trace:
+#0 /home/creativa/public_html/luis/hub/wp-includes/pluggable.php(352): PHPMailer->setFrom('Lorem Ipsum', 'WordPress')
+#1 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(85): wp_mail('leevan1983@gmai...', 'HUB Register', 'Name:Lorem Ipsu...', 'From: Lorem Ips...', Array)
+#2 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(17): WPCF7_Mail->compose()
+#3 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(251): WPCF7_Mail::send(Array, 'mail')
+#4 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(159): WPCF7_Submission->mail()
+#5 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#6 /home/creativa/public_html/l in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php on line 946
+[01-Sep-2016 22:13:19 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: Lorem' in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php:946
+Stack trace:
+#0 /home/creativa/public_html/luis/hub/wp-includes/pluggable.php(352): PHPMailer->setFrom('Lorem', 'WordPress')
+#1 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(85): wp_mail('leevan1983@gmai...', 'HUB Register', 'Name:Lorem \nEmm...', 'From: Lorem\nX--...', Array)
+#2 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(17): WPCF7_Mail->compose()
+#3 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(251): WPCF7_Mail::send(Array, 'mail')
+#4 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(159): WPCF7_Submission->mail()
+#5 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#6 /home/creativa/public_html/luis/hub/wp in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php on line 946
+[01-Sep-2016 22:16:13 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: dfgdfg' in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php:946
+Stack trace:
+#0 /home/creativa/public_html/luis/hub/wp-includes/pluggable.php(352): PHPMailer->setFrom('dfgdfg', 'WordPress')
+#1 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(85): wp_mail('leevan1983@gmai...', 'HUB Register', 'Name:dfgdfg \nEE...', 'From: dfgdfg\nXX...', Array)
+#2 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(17): WPCF7_Mail->compose()
+#3 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(251): WPCF7_Mail::send(Array, 'mail')
+#4 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(159): WPCF7_Submission->mail()
+#5 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#6 /home/creativa/public_html/luis/hub/ in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php on line 946
+[02-Sep-2016 20:59:10 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: Powell' in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php:946
+Stack trace:
+#0 /home/creativa/public_html/luis/hub/wp-includes/pluggable.php(352): PHPMailer->setFrom('Powell', 'WordPress')
+#1 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(85): wp_mail('leevan1983@gmai...', 'HUB Register', 'Name:Powell \nEE...', 'From: Powell\nXX...', Array)
+#2 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/mail.php(17): WPCF7_Mail->compose()
+#3 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(251): WPCF7_Mail::send(Array, 'mail')
+#4 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(159): WPCF7_Submission->mail()
+#5 /home/creativa/public_html/luis/hub/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#6 /home/creativa/public_html/luis/hub/ in /home/creativa/public_html/luis/hub/wp-includes/class-phpmailer.php on line 946
+[07-Sep-2016 18:13:03 UTC] PHP Warning:  copy(/home/creativa/public_html/luis/hub/wp-admin/includes/update-core.php): failed to open stream: Permission denied in /home/creativa/public_html/luis/hub/wp-admin/includes/class-wp-filesystem-direct.php on line 257
+[19-Jan-2017 13:01:39 UTC] PHP Warning:  copy(/home/creativa/public_html/luis/hub/wp-admin/includes/update-core.php): failed to open stream: Permission denied in /home/creativa/public_html/luis/hub/wp-admin/includes/class-wp-filesystem-direct.php on line 257
+[23-Feb-2017 15:04:08 UTC] PHP Warning:  copy(/home/creativa/public_html/luis/hub/wp-admin/includes/update-core.php): failed to open stream: Permission denied in /home/creativa/public_html/luis/hub/wp-admin/includes/class-wp-filesystem-direct.php on line 257
